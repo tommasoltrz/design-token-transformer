@@ -4,66 +4,27 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 17 Sep 2021 10:23:13 GMT
+// Generated on Wed, 17 Nov 2021 13:35:17 GMT
 
 
 import UIKit
 
 public enum StyleDictionaryColor {
-    public static let colorsBackground = #ffffffff
-    public static let colorsBackground = #000000ff
-    public static let colorsBackgroundHighlight = #17181aff
-    public static let colorsBackgroundHighlight = #2c2e30ff
-    public static let colorsBackgroundVariant = #f1f2f4ff
-    public static let colorsBackgroundVariant = #222325ff
-    public static let colorsOnAlwaysWhiteHighEmphasis = #020203ff
-    public static let colorsOnAlwaysWhiteHighEmphasis = #020203ff
-    public static let colorsOnAlwaysWhiteLowEmphasis = #717579ff
-    public static let colorsOnAlwaysWhiteLowEmphasis = #717579ff
-    public static let colorsOnAlwaysWhiteMediumEmphasis = #515258ff
-    public static let colorsOnAlwaysWhiteMediumEmphasis = #515258ff
-    public static let colorsOnBackgroundHighEmphasis = #020203ff
-    public static let colorsOnBackgroundHighEmphasis = #f7f8f9ff
-    public static let colorsOnBackgroundHighlightHighEmphasis = #f7f8f9ff
-    public static let colorsOnBackgroundHighlightHighEmphasis = #f7f8f9ff
-    public static let colorsOnBackgroundHighlightLowEmphasis = #787f88ff
-    public static let colorsOnBackgroundHighlightLowEmphasis = #9197a1ff
-    public static let colorsOnBackgroundHighlightMediumEmphasis = #b2b4b9ff
-    public static let colorsOnBackgroundHighlightMediumEmphasis = #afb0b6ff
-    public static let colorsOnBackgroundLowEmphasis = #6a6d71ff
-    public static let colorsOnBackgroundLowEmphasis = #848a95ff
-    public static let colorsOnBackgroundMediumEmphasis = #515258ff
-    public static let colorsOnBackgroundMediumEmphasis = #afb0b6ff
-    public static let colorsOnUiHighEmphasis = #020203ff
-    public static let colorsOnUiHighEmphasis = #f7f8f9ff
-    public static let colorsOnUiHighlightHighEmphasis = #f7f8f9ff
-    public static let colorsOnUiHighlightHighEmphasis = #020203ff
-    public static let colorsOnUiHighlightLowEmphasis = #787f88ff
-    public static let colorsOnUiHighlightLowEmphasis = #717579ff
-    public static let colorsOnUiHighlightMediumEmphasis = #b2b4b9ff
-    public static let colorsOnUiHighlightMediumEmphasis = #515258ff
-    public static let colorsOnUiLowEmphasis = #676a6eff
-    public static let colorsOnUiLowEmphasis = #878991ff
-    public static let colorsOnUiMediumEmphasis = #515258ff
-    public static let colorsOnUiMediumEmphasis = #bfc2c8ff
-    public static let colorsSemanticError = #d4000dff
-    public static let colorsSemanticError = #d4000dff
-    public static let colorsSemanticSuccess = #00af2cff
-    public static let colorsSemanticSuccess = #00af2cff
-    public static let colorsSemanticWarning = #ff8a00ff
-    public static let colorsSemanticWarning = #ff8a00ff
-    public static let colorsSpecialAlwaysDarkOverlay = #000000cc
-    public static let colorsSpecialAlwaysDarkOverlay = #000000cc
-    public static let colorsSpecialAlwaysWhite = #ffffffff
-    public static let colorsSpecialAlwaysWhite = #ffffffff
-    public static let colorsUiHighContrast = #a8aaafff
-    public static let colorsUiHighContrast = #6e7175ff
-    public static let colorsUiHighlight = #17181aff
-    public static let colorsUiHighlight = #fdfeffff
-    public static let colorsUiLowContrast = #f1f2f4ff
-    public static let colorsUiLowContrast = #222325ff
-    public static let colorsUiMediumContrast = #d8daddff
-    public static let colorsUiMediumContrast = #424447ff
-    public static let colorsUiNormalContrast = #c0c2c6ff
-    public static let colorsUiNormalContrast = #4d4f53ff
+    public static let danger05 = UIColor(red: 0.996, green: 0.918, blue: 0.918, alpha: 1)
+    public static let danger50 = UIColor(red: 0.867, green: 0.204, blue: 0.204, alpha: 1)
+    public static let danger70 = UIColor(red: 0.741, green: 0.173, blue: 0.173, alpha: 1)
+    public static let mono05 = UIColor(red: 0.945, green: 0.949, blue: 0.953, alpha: 1)
+    public static let mono10 = UIColor(red: 0.925, green: 0.925, blue: 0.925, alpha: 1)
+    public static let mono30 = UIColor(red: 0.357, green: 0.376, blue: 0.388, alpha: 1)
+    public static let mono50 = UIColor(red: 0.192, green: 0.204, blue: 0.212, alpha: 1)
+    public static let mono70 = UIColor(red: 0.075, green: 0.082, blue: 0.173, alpha: 1)
+    public static let primary05 = UIColor(red: 0.929, green: 0.922, blue: 0.980, alpha: 1)
+    public static let primary10 = UIColor(red: 0.855, green: 0.843, blue: 0.961, alpha: 1)
+    public static let primary30 = UIColor(red: 0.647, green: 0.608, blue: 0.894, alpha: 1)
+    public static let primary50 = UIColor(red: 0.427, green: 0.365, blue: 0.827, alpha: 1)
+    public static let primary70 = UIColor(red: 0.263, green: 0.192, blue: 0.706, alpha: 1)
+    public static let warning05 = UIColor(red: 1.000, green: 0.973, blue: 0.937, alpha: 1)
+    public static let warning50 = UIColor(red: 1.000, green: 0.663, blue: 0.259, alpha: 1)
+    public static let warning70 = UIColor(red: 0.902, green: 0.612, blue: 0.271, alpha: 1)
+    public static let white = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
 }
