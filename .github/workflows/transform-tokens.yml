@@ -60,7 +60,7 @@ jobs:
           personal_token: ${{ secrets.API_TOKEN_GITHUB }}
           # This is the branch that has the code for this article
           src_branch: main
-          src_path: build/scss/_variables.css
+          src_path: build/css/_variables.css
           dst_owner: tommasoltrz
           dst_repo_name: Stencil-React-Monorepo-Starter
           dst_branch: master
