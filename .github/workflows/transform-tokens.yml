@@ -78,7 +78,7 @@ jobs:
           source_folder: build/css
           destination_repo: tommasoltrz/Stencil-React-Monorepo-Starter
           destination_folder: libs/ui-components/src/tokens
-          destination_base_branch: main
-          destination_head_branch: master
+          destination_base_branch: master
+          destination_head_branch: token-update
           user_email: tommasoltrz@gmail.com
           user_name: tommasoltrz
