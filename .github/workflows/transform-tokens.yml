@@ -51,20 +51,34 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - uses: actions/checkout@v2
-      - name: Deliver Platform Deliverable To Application
-        uses: andstor/copycat-action@v3
+      # - uses: actions/checkout@v2
+      # - name: Deliver Platform Deliverable To Application
+      #   uses: andstor/copycat-action@v3
+      #   with:
+      #     # See documentation: https://docs.github.com/en/actions/reference/encrypted-secrets
+      #     # Set the secret in the "src" repository
+      #     personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+      #     # This is the branch that has the code for this article
+      #     src_branch: main
+      #     src_path: build/css/_variables.css
+      #     dst_owner: tommasoltrz
+      #     dst_repo_name: Stencil-React-Monorepo-Starter
+      #     dst_branch: master
+      #     dst_path: libs/ui-components/src/tokens/_variables.css
+      #     username: tommasoltrz
+      #     email: tommasoltrz@gmail.com
+      #     commit_message: Update tokens
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Create pull request
+        uses: paygoc6/action-pull-request-another-repo@v1.0.1
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          # See documentation: https://docs.github.com/en/actions/reference/encrypted-secrets
-          # Set the secret in the "src" repository
-          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
-          # This is the branch that has the code for this article
-          src_branch: main
-          src_path: build/css/_variables.css
-          dst_owner: tommasoltrz
-          dst_repo_name: Stencil-React-Monorepo-Starter
-          dst_branch: master
-          dst_path: libs/ui-components/src/tokens/_variables.css
-          username: tommasoltrz
-          email: tommasoltrz@gmail.com
-          commit_message: Update tokens
+          source_folder: build/css
+          destination_repo: tommasoltrz/Stencil-React-Monorepo-Starter
+          destination_folder: libs/ui-components/src/tokens
+          destination_base_branch: main
+          destination_head_branch: master
+          user_email: tommasoltrz@gmail.com
+          user_name: tommasoltrz
